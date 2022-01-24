@@ -1,0 +1,9 @@
+name: KillStats
+version: '${project.version}'
+main: dev.imfound.killstats.KillStats
+api-version: 1.16
+authors: [ ImFound ]
+description: Plugin killstats
+website: ImFound.dev
+depend:
+  - PlaceholderAPI

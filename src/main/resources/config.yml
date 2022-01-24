@@ -1,0 +1,15 @@
+# MySQL is compulsory, without it, nothing will work. Issuses on github where mysql isn't installed will be closed.
+# Broadcast message accepts placeholderapi.
+mysql:
+  host: ""
+  port: ""
+  database: ""
+  username: ""
+  password: ""
+streaks:
+  yes: "Yes"
+  no: "No"
+  broadcast:
+    enabled: true
+    streak-delay: 5
+    message: "%player_name% have reached {STREAK} of kill streak"
